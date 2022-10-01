@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 27, 56);
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: left;
+    margin-left: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.kutu1{
+    display: flex;
+    justify-content: flex-start;
+    background-color: aquamarine;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;    
+}
+
+.kutu5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 350px;
+    font-size: 50px;
+}
+.kutu2{
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+.kutu2:hover{
+    text-decoration: underline;
+}
+
+.kutu3:hover{
+    text-decoration: underline;
+}
+
+.kutu4:hover{
+    text-decoration: underline;
+}
+
+.kutu3{
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+.kutu4{
+    margin-top: 35px;
+    margin-right: 50px;
+}
+
+.divk{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.aresim{
+    margin-top: 50px;
+    border: 3px black solid;
+    width: 534px;
+    height: 403px;
+}
+
+.yazi{
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 55px;
+    margin-left: 10px;
+    
+}
+
+.urund{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+#resim{
+    width:290px; 
+    height:200px
+}
+
+
+.urun:hover{    
+  transform: scale(1.1);
+}
+
+.urun{
+    width: 300px;
+    height: 300px;
+    border: black 3px solid;
+    margin-top: 110px;
+    margin-left: 79px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+    align-items: center;
+    transition: all .2s;
+
+}
+
+.urunadi{
+    background-color: red;
+    width: 100;
+    height: 95px;
+    margin-top:-5px ;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.urunadi p{
+    line-height: 95px;
+}
